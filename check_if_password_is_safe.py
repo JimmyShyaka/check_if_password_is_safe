@@ -7,7 +7,7 @@ We use a hashing function to hash the password we want to check and
 then we split the hashed value into 2 parts: The first part is the first 5 characters of the hash
 and the second part is the rest of the characters of the hash that we call "tail".
 
-We use the first five characters of the hash to check that the public database
+We use the first five characters of the hash to check if the public database
 of hacked/leaked passwords to see if the first 5 characters of the hashed value
 of the password appeared in the public database there and return a list of
 all hashed strings that are found to match our first five hashes.
