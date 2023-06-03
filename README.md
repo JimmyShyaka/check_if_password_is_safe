@@ -20,13 +20,13 @@
 # Below is an example of passord checks from cli:
 
 
-type "break" to exit
-password: hello
-hello was found 264691 times
-type "break" to exit
+#type "break" to exit
+#password: hello
+#hello was found 264691 times
+#type "break" to exit
 
 
-password: 12345
-12345 was found 2591816 times
-type "break" to exit
-password: 
+#password: 12345
+#12345 was found 2591816 times
+#type "break" to exit
+#password: 
