@@ -13,3 +13,20 @@
 # If the password is not found from the database, then the program will exit with a message letting you know that "the password was not found. The password is safe. Carry on!"
 
 # The goal is to avoid using a password that has been found to be on that public list of leaked passwords
+
+
+# When you run the program it will ask you to type in the password to be checked. Alternatively you can input a file containing a list of passwords you want to check. I like the second method because if you type the password in the terminal with the first method of executing the program, the password will be saved in history on your computer which is not a best security practice.
+
+# Below is an example of passord checks from cli:
+
+
+type "break" to exit
+password: hello
+hello was found 264691 times
+type "break" to exit
+
+
+password: 12345
+12345 was found 2591816 times
+type "break" to exit
+password: 
