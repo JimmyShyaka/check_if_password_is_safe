@@ -1,7 +1,7 @@
 '''
 The goal of this project is to create an API that is going to check how many times a
 password is found in the public database of the leaked passwords which will tell us
-how strong our password is.
+how safe our password is.
 
 We use a hashing function to hash the password we want to check and
 then we split the hashed value into 2 parts: The first part is the first 5 characters of the hash
